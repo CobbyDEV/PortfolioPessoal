@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagem/favicon-32x32.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagem/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagem/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagem/favicon-16x16.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio Guilherme Matias Rodrigues</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <!--DIV CRIADA ENVOLVENDO TODO A PÁGINA -->
+    <div class="container"> <!-- TODO O CONTÉUDO DA PÁGINA-->
+        <!--CRIAÇÃO DAS 3 LINHAS DO HAMBURGUER -->
+        <div class="hamburguer">
+            <div class="linha" id="linha1"></div>
+            <div class="linha" id="linha2"></div>
+            <div class="linha" id="linha3"></div>
+            <span>Fechar</span> <!--Mensagem-->
+        </div>
+
+        <header > <!-- CABEÇALHO-->
+            <div class="img-wrapper"> <!--Wrapper para adaptação da imagem-->
+                <img src="/imagem/fundo.jpg" alt="">
+            </div>
+            <div class="titulo_topo">
+                <h1>System Analisys and Development</h1>
+                <p>Guilherme Matias (Cobby)</p>
+               <a href="https://github.com/CobbyDEV" target="_blank"  ><button type="button" class="btn btn-primary">Saiba Mais</button></a>  <!--BOOSTRAP-->
+            </div>
+        </header>
+       <!--  div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*5 --> <!--CRIAÇÃO DOS 5 TÓPICOS-->
+       <aside class="sidebar">
+           <nav>
+               <ul class="menu">
+                   <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                   <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                   <li class="menu-item"><a href="#projeto" class="menu-link">Projeto</a></li>
+                   <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                   <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+               </ul>
+           </nav>
+          <!-- div.social-media>(a>i.fab.fa)*3 oque eu usei  --> <!-- CRIAÇÃO PARTE SOCIAL NO HAMBURGUER-->
+          <div class="social-media">
+              <a href="https://whats.link/cobbyarts"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://github.com/CobbyDEV"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/cobbyarts/"><i class="fab fa-instagram"></i></a>
+            </div>
+       </aside>
+       <!-- section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimentos>(.conhecimeto-header>i.fab+h3).conhecimento-text>p{lorem30})*6 -->
+       <!--CONHECIMENTOS / SOBRE MIM-->
+       <section class="sessao-conhecimentos" id="conhecimentos">
+           <div class="sessao-header">
+               <h1>Conhecimentos / Sobre Mim</h1>
+           </div>
+           <div class="conhecimentos">
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                    <i class="fas fa-address-book"></i>
+                       <h3>Sobre Mim</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>Me chamo Guilherme, Tenho 19 anos, natural de Águas Lindas Goiás atualmente cursando analise e desenvolvimento de sistema na Uninter, buscando ampliar o meu conhecimento em programação e melhores oportunidade de emprego.</p>
+                   </div>
+               </div>
+
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                       <i class="fab fa-css3-alt"></i> 
+                       <h3>CSS</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML. </p>
+                   </div>
+               </div>
+
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                       <i class="fas fa-pencil-alt"></i>
+                       <h3>Designer</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>O designer gráfico é responsável por criar a parte visual de materiais como sites, panfletos, outdoors, banners, embalagens, anúncios, campanhas e logotipos.</p>
+                       <a href="https://www.behance.net/cobbyArts" target="_blank" >Link Portfólio</a>
+                   </div>
+               </div>
+
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                    <i class="fas fa-graduation-cap"></i>
+                       <h3>Formação</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>
+                        Ensino médio completo, conhecimento avançado em designer gráfico e curso análise e desenvolvimento de sistema na faculdade Uninter a fim de ser um especialista em front-end.</p>
+                   </div>
+               </div>
+
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                    <i class="fab fa-html5"></i>
+                       <h3>Html</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+                   </div>
+               </div>
+
+               <div class="conhecimento">
+                   <div class="conhecimento-header">
+                       <i class="fab fa-github"></i>
+                       <h3>Java Script</h3>
+                   </div>
+                   <div class="conhecimento-text">
+                       <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+                   </div>
+               </div>
+              <div class="conhecimento-img-wrapper">
+                  <img src="/imagem/sobremim.png" alt="imagem conhecimentos">
+              </div> 
+
+           </div>
+       </section>
+       <section class="sessao-projetos " id="projeto">
+        <!-- Informações portfólio/projetos -->
+           <div class="sessao-header">
+               <h1>Projetos</h1>
+           </div>
+           <!-- .projetos>.card>(.card-img-wrapper+.card-info>h2+h3+p+button)*3 -->
+           <div class="projetos">
+               <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="/imagem/proj1.png" alt="Imagem do projeto Todo">
+                   </div>
+                   <div class="card-info">
+                       <h2>AçaiteriaAju</h2>
+                       <h3>Aju</h3>
+                       <p>AçateriaAju - (Website fictício a fim de estudo construído). Site desenvolvido para uma Açaiteria possuindo Todo os estilo e maravilhas do açai.</p>
+                       <a href="https://cobbydev.github.io/AcaiteriaAju/" target="_blank"  ><button type="button" class="btn">Saiba Mais</button></a>  <!--BOOSTRAP-->
+                   </div>
+                   </div>
+                   <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="/imagem/proj2.png" alt="Imagem do projeto maratona">
+                   </div>
+                   <div class="card-info">
+                       <h2>MedClin</h2>
+                       <h3>Hospitalar</h3>
+                       <p>Projeto Desenvolvido afim de estudo usando apenas html/css, Medclin Referência no setor de Medicina Diagnóstica do País.</p>
+                       <button type="button" class="btn" onclick="cadastro();">Saiba Mais</button> <!--BOOSTRAP-->
+                   </div>
+                </div>
+                <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="/imagem/proj3.png" alt="Imagem do projeto casa bela">
+                   </div>
+                   <div class="card-info">
+                       <h2>AnimeFlix</h2>
+                       <h3>Animes</h3>
+                       <p>AnimeFlix site baseado na netflix focada apenas em filmes e series de animes projeto ainda em desenvolvimento.</p>
+                       <button type="button" class="btn" id="btn_cadastro" onclick="cadastro();">Saiba Mais</button> <!--BOOSTRAP-->
+                   </div>
+               </div>
+           </div> 
+       </section>
+       <!-- CONTATOS-->
+      <section class ="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+                <h1>Contato</h1>
+                <form >
+                  <!--  (.input-group>input.field+label.field-label)*3 -->
+                  <div class="input-group">
+                      <input type="text" class="field" id="nome">
+                      <label for="nome" class="field-label">Nome</label>
+                    </div>
+                  <div class="input-group">
+                      <input type="text" class="field" id="email">
+                      <label for="email" class="field-label">Email</label>
+                    </div>
+                  <div class="input-group">
+                      <textarea class="field" id= "mensagem"></textarea>
+                      <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <button type="button" class="btn btn-submit" id="btn_cadastro" onclick="cadastro2();">Saiba Mais</button> <!--BOOSTRAP-->
+                </form>
+            </div>
+        </div>
+      </section>
+      <!--Criação da parte do orçamento-->
+    <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+              <label for="qtde">Qtde de Páginas</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Preciso de um script JS</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Layout</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Preciso de um layout</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Já tenho um layout</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button type="button" class="btn btn-orcamento" type="submit" onclick="cadastro3();">Enviar</button> <!--BOOSTRAP-->
+            </form>
+          </div>
+        </section>
+    <section>
+        <!--RODÁPE-->
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2022, Guilherme Cobby - Todos os direitos reservados.
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://whats.link/cobbyarts"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/eu.cobby/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/cobbyfps"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </section>
+    </div>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
