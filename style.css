@@ -516,7 +516,7 @@ header {
 
 .contato-left {
   width: 35%;
-  background-image: url(/imagem/contato.png);
+  background-image: url(./imagem/contato.png);
   ;
   display: flex;
   justify-content: center;
@@ -613,7 +613,7 @@ header {
 .sessao-orcamento {
   width: 100%;
   height: 100vh;
-  background: url(/imagem/orçamento1.jpg);
+  background: url(./imagem/orçamento1.jpg);
   /*ADD IMAGEM */
   object-fit: cover;
   display: flex;
